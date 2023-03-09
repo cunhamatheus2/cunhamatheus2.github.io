@@ -1,0 +1,35 @@
+body {
+	background-image: url('background.jpg');
+	background-size: cover;
+}
+
+h1 {
+	backdrop-filter: blur(4px);
+	width: 575px;
+	font-family: 'Trebuchet MS', sans-serif;
+	color: #EA0000;
+	text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                 10px 20px 5px rgba(0,0,0,0.05),
+                 -10px 20px 5px rgba(0,0,0,0.05);
+    text-shadow: 2px 2px 5px #E3BDF8;
+    margin-top: 50px;
+
+
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	margin-top: 125px;
+	transition: all	3sec;
+}
+
+img:hover {
+	transform: scale(1.3);
+}

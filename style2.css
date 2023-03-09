@@ -1,0 +1,77 @@
+body {
+	background-image: url('bcground2.jpg');
+	background-size: cover;
+}
+
+img {
+	width: 120px;
+	height: 120px;
+	margin-left: 340px;
+	margin-top: 200px;
+}
+
+h1	{
+	font-family: 'Fredoka One', cursive;
+	margin-left: 340px;
+	margin-top: -30px;
+	font-style: bold;
+	color: ;
+	text-decoration: underline;
+	text-shadow:  0px 15px 5px rgba(226, 124, 41, 0.1),
+                 10px 20px 5px rgba(226, 124, 41, 0.05),
+                 -10px 20px 5px rgba(226, 124, 41, 0.05);
+
+}
+
+h2 {
+	font-family: 'Roboto Slab', serif;
+	margin-left: 370px;
+	margin-top: 25px;
+	
+
+}
+
+h3	{
+	margin-left: 610px;
+	size: 20px;
+	font-style: italic;
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	margin-top: 10px;
+
+}
+
+input {
+	margin-left: 580px;
+	margin-top: 10px;
+	background: #e6d9d0;
+	color: black;
+	border-style: outset;
+	border-color: #908a85;
+	height: 50px;
+	width: 200px;
+	font: bold 15px 'Roboto Slab', serif;
+	text-shadow: none;
+}
+
+input:hover {
+	background: #af9e8e;
+	color: black;
+	border-style: outset;
+	border-color: #908a85;
+	height: 50px;
+	width: 200px;
+	font: bold 15px 'Roboto Slab', serif;
+	text-shadow: none;
+	cursor: pointer;
+}
+
+footer {
+	font: bold 10px 'Roboto Slab', serif;
+	margin-left: 850px;
+
+}
+
+
+
+
